@@ -198,6 +198,40 @@ h1 {
     font-size: 1rem;
 }
 
+.insta-btn {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 2rem auto;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.insta-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(220,39,67,0.3);
+}
+
+.insta-icon {
+    font-size: 1.4rem;
+}
+
+.floating-heart {
+    position: fixed;
+    pointer-events: none;
+    z-index: 1000;
+    font-size: 1.5rem;
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));
+}
+
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
